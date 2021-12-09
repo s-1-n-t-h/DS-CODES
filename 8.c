@@ -13,7 +13,7 @@ void merge(int arr[],int l,int mid,int r)
     {
         b[i]=arr[mid+1+i];
     }
-    i=0,j=0,k=l;
+    i=0;j=0;k=l;
     while(i<n1 && j<n2)
     {
         if(a[i] < b[j])
